@@ -32,9 +32,10 @@
                              targetProject="${mapperProject}" type="XMLMAPPER" />
 
         <!-- 如果需要通配所有表 直接用sql的通配符    %即可 -->
-        <table  tableName="test" domainObjectName="Test"
+        <table  tableName="user_info" domainObjectName="UserInfo"
                 enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
-                enableSelectByExample="false" selectByExampleQueryId="false" >
+                enableSelectByExample="false" selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>
