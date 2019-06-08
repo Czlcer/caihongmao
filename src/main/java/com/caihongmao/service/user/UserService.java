@@ -1,4 +1,4 @@
-package com.caihongmao.service;
+package com.caihongmao.service.user;
 
 import com.caihongmao.request.user.UserInfoRequest;
 

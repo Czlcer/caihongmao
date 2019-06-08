@@ -1,4 +1,4 @@
-package com.caihongmao.dao;
+package com.caihongmao.dao.user;
 
 import com.caihongmao.model.UserInfo;
 import com.caihongmao.param.user.RegisteredUserParam;
